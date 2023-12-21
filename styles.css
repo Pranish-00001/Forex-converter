@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #05223f;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#head{
+    color:#93dbee;
+}
+#Amm {
+    color: aqua;
+}
+#From {
+    color: aqua;
+}
+#To {
+    color: aqua;
+}
+.converter-container {
+    background-color: #082a4d;
+    padding: 40px;
+    border-radius: 9%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #93dbee
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #21325b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #93dbee;
+}
+#result-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    background-color:rgb(152, 228, 228);
+    border: 3px solid darkcyan ;
+    font-size: 18px;
+    font-style: bold;
+
+}
